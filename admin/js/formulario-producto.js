@@ -58,7 +58,7 @@ const validarFormulario = (e) => {
             validarCampo(expresiones.inputStock,e.target,'inputStock');
         break; 
         case "inputTalla":
-            if(e.target.value !==''){
+            if(e.target.value !=='inputTalla'){
                 document.getElementById('inputTalla').classList.remove('is-invalid');
                 document.getElementById('inputTalla').classList.add('is-valid');
              
@@ -69,7 +69,7 @@ const validarFormulario = (e) => {
             }
          break;  
          case "inputImagen":
-            if(e.target.value !==''){
+            if(e.target.value !=='inputImagen'){
                 document.getElementById('inputImagen').classList.remove('is-invalid');
                 document.getElementById('inputImagen').classList.add('is-valid');
              
